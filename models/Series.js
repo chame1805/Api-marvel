@@ -29,16 +29,24 @@ setThumbnail(thumbnail){this.#thumbnail=thumbnail}
 getThumbnail(){return this.#thumbnail}
 
 
-addCharacter(character){this.#character=character}
+ addCharacter(character){
+     this.#character.push(character)
+ }
 getCharacter(){return this.#character}
 
-addCreators(creator){this.#creators=creator}
+ addCreators(creator){
+     this.#creators.push(creator)
+ }
 getCreators(){return this.#creators}
 
-addStories(stories){this.#stories=stories}
+ addStories(stories){
+     this.#stories.push(stories)
+ }
 getStories(){return this.#stories}
 
 
-addComic(comic){this.#comic=comic}
+ addComic(comic){
+     this.#comic.push(comic)
+ }
 getComic(){return this.#comic}
 }
