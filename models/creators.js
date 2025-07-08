@@ -7,5 +7,7 @@ export class Creators {
 
 
     setRole(role){this.#role=role}
-    getRole(){this.#role}
+    getRole(){
+        return this.#role
+    }
 }
